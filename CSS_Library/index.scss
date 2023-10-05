@@ -1,9 +1,11 @@
 // Variables and Functions
+@import 'functions';
 @import 'variables';
 
 
 // Base and Layout
 @import 'reset';
+@import 'breakpoints';
 
 
 // Colors
@@ -12,8 +14,10 @@
 
 // Components - Button, Card, Navbar
 @import 'sass_components/card';
+@import 'sass_components/button';
 
-// Utilities - Margin, Padding, Opacity
+// Utilities - Margin, Padding, Opacity, m-4, pl-3, o-40
+@import 'utilities';
 
 
 
