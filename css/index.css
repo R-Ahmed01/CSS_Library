@@ -2614,6 +2614,21 @@ img {
   background-color: #000078;
 }
 
+.btn-complement-primary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #000078;
+  color: #ffff12;
+}
+.btn-complement-primary:hover {
+  color: #000078;
+  background-color: #ffff12;
+}
+
 .btn-secondary {
   text-decoration: none;
   cursor: pointer;
@@ -2639,6 +2654,21 @@ img {
 }
 .btn-outlined-secondary:hover {
   background-color: #004a00;
+}
+
+.btn-complement-secondary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #004a00;
+  color: #e300e3;
+}
+.btn-complement-secondary:hover {
+  color: #004a00;
+  background-color: #e300e3;
 }
 
 .btn-error {
@@ -2668,6 +2698,21 @@ img {
   background-color: #D32752;
 }
 
+.btn-complement-error {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #D32752;
+  color: #a5eedc;
+}
+.btn-complement-error:hover {
+  color: #D32752;
+  background-color: #a5eedc;
+}
+
 .btn-info {
   text-decoration: none;
   cursor: pointer;
@@ -2693,6 +2738,21 @@ img {
 }
 .btn-outlined-info:hover {
   background-color: #F6C31C;
+}
+
+.btn-complement-info {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #F6C31C;
+  color: #afc1fc;
+}
+.btn-complement-info:hover {
+  color: #F6C31C;
+  background-color: #afc1fc;
 }
 
 .btn-blue {
@@ -2722,6 +2782,21 @@ img {
   background-color: #1919E6;
 }
 
+.btn-complement-blue {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #1919E6;
+  color: #f5f5a3;
+}
+.btn-complement-blue:hover {
+  color: #1919E6;
+  background-color: #f5f5a3;
+}
+
 .btn-red {
   text-decoration: none;
   cursor: pointer;
@@ -2747,6 +2822,21 @@ img {
 }
 .btn-outlined-red:hover {
   background-color: red;
+}
+
+.btn-complement-red {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: red;
+  color: #99ffff;
+}
+.btn-complement-red:hover {
+  color: red;
+  background-color: #99ffff;
 }
 
 .btn-yellow {
@@ -2776,6 +2866,21 @@ img {
   background-color: rgb(227, 227, 63);
 }
 
+.btn-complement-yellow {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: rgb(227, 227, 63);
+  color: #c5c5f6;
+}
+.btn-complement-yellow:hover {
+  color: rgb(227, 227, 63);
+  background-color: #c5c5f6;
+}
+
 .btn-green {
   text-decoration: none;
   cursor: pointer;
@@ -2801,6 +2906,21 @@ img {
 }
 .btn-outlined-green:hover {
   background-color: green;
+}
+
+.btn-complement-green {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: green;
+  color: #ff1aff;
+}
+.btn-complement-green:hover {
+  color: green;
+  background-color: #ff1aff;
 }
 
 .btn-orange {
@@ -2830,6 +2950,21 @@ img {
   background-color: orange;
 }
 
+.btn-complement-orange {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: orange;
+  color: #99bdff;
+}
+.btn-complement-orange:hover {
+  color: orange;
+  background-color: #99bdff;
+}
+
 .btn-purple {
   text-decoration: none;
   cursor: pointer;
@@ -2855,6 +2990,21 @@ img {
 }
 .btn-outlined-purple:hover {
   background-color: purple;
+}
+
+.btn-complement-purple {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: purple;
+  color: #1aff1a;
+}
+.btn-complement-purple:hover {
+  color: purple;
+  background-color: #1aff1a;
 }
 
 .btn-grey {
@@ -2884,6 +3034,21 @@ img {
   background-color: grey;
 }
 
+.btn-complement-grey {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: grey;
+  color: #cdcdcd;
+}
+.btn-complement-grey:hover {
+  color: grey;
+  background-color: #cdcdcd;
+}
+
 .btn-black {
   text-decoration: none;
   cursor: pointer;
@@ -2911,6 +3076,21 @@ img {
   background-color: black;
 }
 
+.btn-complement-black {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: black;
+  color: #4d4d4d;
+}
+.btn-complement-black:hover {
+  color: black;
+  background-color: #4d4d4d;
+}
+
 .btn-white {
   text-decoration: none;
   cursor: pointer;
@@ -2935,5 +3115,20 @@ img {
   border: 1px solid white;
 }
 .btn-outlined-white:hover {
+  background-color: white;
+}
+
+.btn-complement-white {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: white;
+  color: white;
+}
+.btn-complement-white:hover {
+  color: white;
   background-color: white;
 }
